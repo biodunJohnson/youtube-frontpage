@@ -1,0 +1,88 @@
+header{
+    
+    padding-top: 0.1em;
+    background: #ffffff;
+    
+}
+#first_li{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+}
+
+ img.right{
+    float: right;
+    margin-right: 0.4em;
+    padding-right: 0.4em;
+    margin-left: 0.2em;
+    padding-left: 1.1em;
+    width: 30px;
+    height: 24px;
+    
+}
+img.left{
+    
+    margin-right: 10em;
+    padding-right: 10em;
+    width: 30px;
+    height: 24px;
+    display: inline-flex;
+}
+img.left1{
+    
+    margin-left: 2em;
+    padding-left: 2em;
+    width: 80px;
+    height: 24px;
+    display: inline-flex;
+    position: absolute;
+    left: 20px;
+
+}
+input.search{
+    width: 47em;
+    height: 32%%;
+    vertical-align: middle;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+}
+button i.fa fa-search{
+    margin-left: 5.5em;
+    margin-right: 5.5em;
+    padding-right: 16em;
+    padding-left: 5.5em;
+    width: 45em;
+    height: 11%;
+}
+article{
+    background: #f0ebeb;
+    padding-top: 5em;
+    margin-top: 3.9em;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    z-index:3;
+
+    
+}
+section.the video{
+    background: #9993939d;
+    padding-top: 0;
+    margin-top: 0;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    z-index: 3;
+    
+    
+}
+
+iframe{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+    
+    
+
