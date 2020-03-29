@@ -3,103 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/68c9428c25.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../css/style.css"/>
     <title>youtube frontpage</title>
 </head>
  <!--The body of the page-->
 <body>
      <!--The header menu and navbar side-->
-   <header>
-    <ul id="first_li">
-        <li><img src="./../img/menu_icon.png" alt="menu" title="menu" class="left"></li>
-        <li><img src="./../img/youtube_icon.png" alt="youtube" title="The youtube"/ class="left1"></li>
-         <input type="text" name="search" value="search" placeholder="search" class="search">
-         <button class="search"><i class="fa fa-search"></i></button>
-        <li><img src="./../img/add_video_icon.png" alt="add video" title="video"  class="right"></li>
-        <li><img src="./../img/options_icon.png" alt="option" title="option"  class="right"></li>
-        <li><img src="./../img/notif_icon.png" alt="notif" title="notification"  class="right"></li>
-        <li><img src="./../img/user_icon.png" alt="user" title="user"  class="right"></li>
-    </ul>   
+   <header class="nav_bar">    
+        <div class="navleft1">
+            <img src="./../img/menu_icon.png" alt="menu" title="menu" class="left1">
+            <span class="main_logo"><i class="fab fa-youtube"></i></span>
+            <img src="./../img/youtube_icon.png" alt="youtube" title="The youtube" class="left2">
+        </div>
+        <div class="search_bar">
+            <input type="text" name="search" placeholder="Search" class="search">
+            <button class="search_button"><i class="fas fa-search"></i></i></button>
+        </div>
+        <div class="navright1">
+            <img src="./../img/add_video_icon.png" alt="add video" title="video"  class="right1">
+            <img src="./../img/options_icon.png" alt="option" title="option"  class="righ2t">
+            <img src="./../img/notif_icon.png" alt="notif" title="notification"  class="right3">
+            <img src="./../img/user_icon.png" alt="user" title="user"  class="right4">     
+        </div>
    </header>
     <!--The main container of the page, with iframe video and some div class-->
-   <article>
+   <article class="main_container">
        <section class="the video">
             <div class="iframe">
                 <iframe width="760" height="360" src="https://www.youtube.com/embed/KlJd_bI7DVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="like">
-                <img src="./../img/like_icon.png" alt="like" class="image"title="like">
-                <span class="views">368,987</span>
-                <img src="./../img/dislike_icon.png" alt="Dislike" class="image" title="dislike">
-                <span class="views">3778</span>
-                <img src="./../img/share_icon.png" alt="Share" class="image" title="share">
-                <span class="views">SHARE</span>
-                <img src="./../img/addlist_icon.png" alt="Save" class="image" title="save">
-                <span class="views">SAVE</span>
-                <span class="views">...</span>
-            </div>
-            <div class="p">
-            <h1>Joyner Lucas - Will (ADHD)</h1>
-            <p>3,355,418 vistas•25 mar. 2020  </p>
-        </div>
-        <br/><br/>
+            <div class="video_tittle">
+                <h1 class="tittle">Joyner Lucas - Will (ADHD)</h1>
+                <div class="likes_views">
+                    <span class="number_views">
+                        <p>3,355,418 vistas•25 mar. 2020  </p>
+                    </span>
+                    <span class="views_right">
+                        <img src="./../img/like_icon.png" alt="like" class="image"title="like">
+                        <span class="views">368,987</span>
+                        <img src="./../img/dislike_icon.png" alt="Dislike" class="image" title="dislike">
+                        <span class="views">3778</span>
+                        <img src="./../img/share_icon.png" alt="Share" class="image" title="share">
+                        <span class="views">SHARE</span>
+                        <img src="./../img/addlist_icon.png" alt="Save" class="image" title="save">
+                        <span class="views">SAVE</span>
+                        <span class="views_dots">...</span>
+                    </span>    
+                </div>
+            </div>    
             <hr>
-            <div class="sub">
-                <a href="#"><img src="./../img/joyner.png" alt="joyner" class="joy" title="joyner lucas"></a>
-                <h1 class="pet">Joyner Lucas</h1>
-                <p class="poo">4.17 M subscribers</p>
-                <button class="btn">SUBSCRIBE</button>
+            <div class="video_description">
+                <div class="user_icon">
+                    <a href="#"><img src="./../img/joyner.png" alt="joyner" class="joy" title="joyner lucas"></a>
+                </div>
+                <div>
+                    <h1 class="pet">Joyner Lucas</h1>
+                    <p class="poo">4.17 M subscribers</p>
+                    <div class="pee">
+                        <p>Stream now: <a href="#">https://orcd.co/will</a> </p>
+                        <p>ADHD Merch:<a href="#">https://bit.ly/2RDQs0b</a></p>
+                        <p>Written and Distributed on Tully:<a href="#">https://bit.ly/2BFcGEV</a></p>
+                    </div>    
+                </div>
+                <div class="subscribe_button">
+                    <button class="btn">SUBSCRIBE</button>
+                </div>
             </div>
-                <span></span>
-                <div class="now">
-                    <p>Stream now: <a href="#">https://orcd.co/will</a> </p>
-                    <p>ADHD Merch:<a href="#">https://bit.ly/2RDQs0b</a></p>
-                    <p>Written and Distributed on Tully:<a href="#">https://bit.ly/2BFcGEV</a></p>
-                 </div>
             <!--The aside with list image on it-->
-            <aside>
+       </section>
+        <aside class="aside_bar">
+            <div class="headear_aside">
                 <h1 class="dot">Up Next</h1>
-                <h1 class="dot3">AUTOPLAY <i class="fa fa-toggle-on "></i></h1>
-        <ul id="img">
-            <li><img src="./../img/imageSideBar9.png" alt="side1" class="sidebar">
-                <p class="A">ISIS Remix - Eminem, Kendrick </p>
-                <p class="B">Nitin Randhawa</p>
-                <p class="C">7.9 M views . 9 months ago</p>
-            </li>
-            <hr/>
-            <li><img src="./../img/imageSideBar8.png" alt="side2" class="sidebar">
-                <p class="A">ISIS Remix - Eminem, Kendrick </p>
-                <p class="B">Nitin Randhawa</p>
-                <p class="C">7.9 M views . 9 months ago</p></li>
-            
-            <li><img src="./../img/imageSideBar7.png" alt="side3" class="sidebar">
-                <p class="A">ISIS Remix - Eminem, Kendrick </p>
-                <p class="B">Nitin Randhawa</p>
-                <p class="C">7.9 M views . 9 months ago</p>
-            </li>
-
-            <li><img src="./../img/imageSideBar6.png" alt="side4" class="sidebar">
-                <p class="A">ISIS Remix - Eminem, Kendrick </p>
-                <p class="B">Nitin Randhawa</p>
-                <p class="C">7.9 M views . 9 months ago</p></li>
-            
-            <li><img src="./../img/imageSideBar5.png" alt="side5" class="sidebar">
-                <p class="A">ISIS Remix - Eminem, Kendrick </p>
-                <p class="B">Nitin Randhawa</p>
-                <p class="C">7.9 M views . 9 months ago</p></li>
-            <li><img src="./../img/imageSideBar4.png" alt="side6" class="sidebar">
-                <p class="A">ISIS Remix - Eminem, Kendrick </p>
-                <p class="B">Nitin Randhawa</p>
-                <p class="C">7.9 M views . 9 months ago</p></li>
-           
-            <li><img src="./../img/imageSideBar3.png" alt="side7" class="sidebar">
-                <p class="A">ISIS Remix - Eminem, Kendrick </p>
-                <p class="B">Nitin Randhawa</p>
-                <p class="C">7.9 M views . 9 months ago</p></li>
-       </ul>
-   </aside>
-    </section>   
+                <h1><span class="dot3">AUTOPLAY</span><span class="toogle"><i class="fa fa-toggle-on "></i></span></h1>
+            </div>
+            <ul id="img">
+                <li class="side_bar_videos">
+                    <img src="./../img/imageSideBar9.png" alt="side1" class="sidebar">
+                    <div class="description_aside_videos">
+                        <p class="A">ISIS Remix - Eminem, Kendrick </p>
+                        <p class="B">Nitin Randhawa</p>
+                        <p class="C">7.9 M views . 9 months ago</p>
+                    </div>    
+                </li>
+                <hr/>
+                <li class="side_bar_videos">
+                    <img src="./../img/imageSideBar8.png" alt="side2" class="sidebar">
+                    <div class="description_aside_videos">
+                        <p class="A">ISIS Remix - Eminem, Kendrick </p>
+                        <p class="B">Nitin Randhawa</p>
+                        <p class="C">7.9 M views . 9 months ago</p>
+                    </div>
+                </li>
+                <li class="side_bar_videos">
+                    <img src="./../img/imageSideBar7.png" alt="side3" class="sidebar">
+                    <div class="description_aside_videos">
+                        <p class="A">ISIS Remix - Eminem, Kendrick </p>
+                        <p class="B">Nitin Randhawa</p>
+                        <p class="C">7.9 M views . 9 months ago</p>
+                    </div>
+                </li>
+                <li class="side_bar_videos">
+                    <img src="./../img/imageSideBar6.png" alt="side4" class="sidebar">
+                    <div class="description_aside_videos">
+                        <p class="A">ISIS Remix - Eminem, Kendrick </p>
+                        <p class="B">Nitin Randhawa</p>
+                        <p class="C">7.9 M views . 9 months ago</p>
+                    </div>
+                </li>
+                <li class="side_bar_videos">
+                    <img src="./../img/imageSideBar5.png" alt="side5" class="sidebar">
+                    <div class="description_aside_videos">
+                        <p class="A">ISIS Remix - Eminem, Kendrick </p>
+                        <p class="B">Nitin Randhawa</p>
+                        <p class="C">7.9 M views . 9 months ago</p>
+                    </div>
+                </li>
+                <li class="side_bar_videos">
+                    <img src="./../img/imageSideBar4.png" alt="side6" class="sidebar">
+                    <div class="description_aside_videos">
+                        <p class="A">ISIS Remix - Eminem, Kendrick </p>
+                        <p class="B">Nitin Randhawa</p>
+                        <p class="C">7.9 M views . 9 months ago</p>
+                    </div>
+                </li>
+                <li class="side_bar_videos">
+                    <img src="./../img/imageSideBar3.png" alt="side7" class="sidebar">
+                    <div class="description_aside_videos">
+                        <p class="A">ISIS Remix - Eminem, Kendrick </p>
+                        <p class="B">Nitin Randhawa</p>
+                        <p class="C">7.9 M views . 9 months ago</p>
+                    </div>
+                </li>
+            </ul>
+        </aside>   
    </article>
     <!--The Footer-->
    <footer>
