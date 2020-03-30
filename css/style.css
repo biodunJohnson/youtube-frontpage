@@ -33,6 +33,9 @@
     display: flex;
     width: 50%;
 }
+.ifram{
+    border: 0;
+}
 .search{
     width: 100%;
     font-size: 15px;
