@@ -12,24 +12,25 @@
      <!--The header menu and navbar side-->
    <header class="nav_bar">    
         <div class="navleft1">
-            <img src="./../img/menu_icon.png" alt="menu" title="menu" class="left1">
+            <span class="left"><i class="fas fa-bars"></i></span>
             <span class="main_logo"><i class="fab fa-youtube"></i></span>
-            <img src="./../img/youtube_icon.png" alt="youtube" title="The youtube" class="left2">
+            <span class="lefttext">YouTube</span>
         </div>
         <div class="search_bar">
             <input type="text" name="search" placeholder="Search" class="search">
             <button class="search_button"><i class="fas fa-search"></i></button>
         </div>
         <div class="navright1">
-            <img src="./../img/add_video_icon.png" alt="add video" title="video"  class="right1">
-            <img src="./../img/options_icon.png" alt="option" title="option"  class="righ2t" width="21">
-            <img src="./../img/notif_icon.png" alt="notif" title="notification"  class="right3">
-            <img src="./../img/user_icon.png" alt="user" title="user"  class="right4">     
+            <span title="add-video" class="right"><i class="fas fa-video"></i></span>
+            <span title="apps" class="right"><i class="fas fa-th"></i></span>
+            <span title="notif" class="right"><i class="fas fa-bell"></i></span>
+            <span title="user"  class="right"><i class="fas fa-user"></i></span>     
         </div>
    </header>
     <!--The main container of the page, with iframe video and some div class-->
    <section class="main_container">
-       <section class="the video">
+       <h2 class="main_header">.</h2>
+       <section class="the_video">
             <div class="iframe">
                 <iframe width="760" height="360" src="https://www.youtube.com/embed/KlJd_bI7DVo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -40,15 +41,15 @@
                         <p>3,355,418 vistas•25 mar. 2020  </p>
                     </div>
                     <span class="views_right">
-                        <img src="./../img/like_icon.png" alt="like" class="image" title="like">
+                        <span class="image" title="like"><i class="fas fa-thumbs-up"></i></span>
                         <span class="views">368,987</span>
-                        <img src="./../img/dislike_icon.png" alt="Dislike" class="image" title="dislike">
+                        <span class="image" title="dislike"><i class="fas fa-thumbs-down"></i></span>
                         <span class="views">3778</span>
-                        <img src="./../img/share_icon.png" alt="Share" class="image" title="share">
+                        <span class="image" title="share"><button class="share_button"><i class="fas fa-share"></button></i></span>
                         <span class="views">SHARE</span>
-                        <img src="./../img/addlist_icon.png" alt="Save" class="image" title="save">
+                        <span class="image" title="save"><i class="fas fa-list"></i></span>
                         <span class="views">SAVE</span>
-                        <span class="views_dots">...</span>
+                        <span class="views_dots" title="options"><i class="fas fa-ellipsis-h"></i></span>
                     </span>    
                 </div>
             </div>    
@@ -57,7 +58,7 @@
                 <div class="user_icon">
                     <a href="#"><img src="./../img/joyner.png" alt="joyner" class="joy" title="joyner lucas"></a>
                 </div>
-                <div>
+                <div class="desciption_container">
                     <h2 class="pet">Joyner Lucas</h2>
                     <p class="poo">4.17 M subscribers</p>
                     <div class="pee">
@@ -79,16 +80,19 @@
             </div>
             <ul id="img">
                 <li class="side_bar_videos">
-                    <img src="./../img/imageSideBar9.png" alt="side1" class="sidebar">
+                    <img src="./../img/imageSideBar1.png" alt="side1" class="sidebar">
                     <div class="description_aside_videos">
                         <p class="A">ISIS Remix - Eminem, Kendrick </p>
                         <p class="B">Nitin Randhawa</p>
                         <p class="C">7.9 M views . 9 months ago</p>
-                    </div>   
+                    </div>
+                    <div class="line_correction">
+                
+                    </div> 
                 </li>
-                <hr/>
+                
                 <li class="side_bar_videos">
-                    <img src="./../img/imageSideBar8.png" alt="side2" class="sidebar">
+                    <img src="./../img/imageSideBar1.png" alt="side2" class="sidebar">
                     <div class="description_aside_videos">
                         <p class="A">ISIS Remix - Eminem, Kendrick </p>
                         <p class="B">Nitin Randhawa</p>
@@ -96,7 +100,7 @@
                     </div>
                 </li>
                 <li class="side_bar_videos">
-                    <img src="./../img/imageSideBar7.png" alt="side3" class="sidebar">
+                    <img src="./../img/imageSideBar1.png" alt="side3" class="sidebar">
                     <div class="description_aside_videos">
                         <p class="A">ISIS Remix - Eminem, Kendrick </p>
                         <p class="B">Nitin Randhawa</p>
@@ -104,7 +108,7 @@
                     </div>
                 </li>
                 <li class="side_bar_videos">
-                    <img src="./../img/imageSideBar6.png" alt="side4" class="sidebar">
+                    <img src="./../img/imageSideBar1.png" alt="side4" class="sidebar">
                     <div class="description_aside_videos">
                         <p class="A">ISIS Remix - Eminem, Kendrick </p>
                         <p class="B">Nitin Randhawa</p>
@@ -112,7 +116,7 @@
                     </div>
                 </li>
                 <li class="side_bar_videos">
-                    <img src="./../img/imageSideBar5.png" alt="side5" class="sidebar">
+                    <img src="./../img/imageSideBar1.png" alt="side5" class="sidebar">
                     <div class="description_aside_videos">
                         <p class="A">ISIS Remix - Eminem, Kendrick </p>
                         <p class="B">Nitin Randhawa</p>
@@ -120,7 +124,7 @@
                     </div>
                 </li>
                 <li class="side_bar_videos">
-                    <img src="./../img/imageSideBar4.png" alt="side6" class="sidebar">
+                    <img src="./../img/imageSideBar1.png" alt="side6" class="sidebar">
                     <div class="description_aside_videos">
                         <p class="A">ISIS Remix - Eminem, Kendrick </p>
                         <p class="B">Nitin Randhawa</p>
@@ -128,7 +132,7 @@
                     </div>
                 </li>
                 <li class="side_bar_videos">
-                    <img src="./../img/imageSideBar3.png" alt="side7" class="sidebar">
+                    <img src="./../img/imageSideBar1.png" alt="side7" class="sidebar">
                     <div class="description_aside_videos">
                         <p class="A">ISIS Remix - Eminem, Kendrick </p>
                         <p class="B">Nitin Randhawa</p>

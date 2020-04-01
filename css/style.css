@@ -8,24 +8,21 @@
     width: 100%;
     position: fixed;
     z-index: 100;
-    height: auto;
     padding-top: 0.8rem;
+    padding-bottom: 0.7rem;
 }
 .main_logo{
     font-size: 1.6rem;
     color: red;
 }
-.navleft1{
-    padding-top: 0.5rem;
-    padding-left: 1.3rem;
+.left{
+    padding-left: 1.5rem;
+    padding-right: 1.3rem;
 }
-.left1{
-    padding-right: 0.5rem;
-    width: 1.7rem;
-    }
-.left2{
-    padding-left: 0.5rem;
-    width: 4rem;
+.lefttext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
 }    
 .search_bar{
     padding-top: 0.1rem;
@@ -47,78 +44,72 @@
 }    
 .navright1{
     text-align: right;
-    padding-left: 6rem;
+    padding-left: 8rem;
 }
-.right1{
-    width: 1.5rem;
-    padding-right: 1.3rem;
-}
-.right2{
-    padding-left: 1.3rem;
-}
-.right3{
-    width: 1.99rem;
-    padding-left: 1.3rem;
-}
-.right4{
-    width: 1.8rem;
-    padding-left: 1.3rem;
+.right{
+    padding-left: 2.5rem;
 }
 .main_container{
     padding-top: 5%;
     justify-content: center;
     display: flex;
 }
+.the_video{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_header{
+    display: none;
+}
 .tittle{
     padding-top: 0.8rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .likes_views{
     display: flex;
 }
 .number_views{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #666464;
+    color: #777575;
     padding-top: 0.8rem;
-}
-.views{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #666464;
-    font-weight: bolder;
-}
-.views_dots{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #666464;
-    font-weight: bolder;
-    font-size: 30px;
 }
 .views_right{
     padding-left: 7rem;
+    color: #777575;
+}
+.image{
+    padding-left: 2rem;
+}
+.share_button{
+    background-color: transparent;
+    border: none;
+    color: #777575;
+    cursor: pointer;
+}
+.views{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 0.8rem;
 }
 .video_description{
     display: flex;
+    padding-top: 1rem;
 }
 .joy{
-    width: 70%;
+    border-radius: 70%;
 }
-.pet{
-    padding-top: 1rem;
+.desciption_container{
+    padding-left: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-.poo{
-    font-family: Arial, Helvetica, sans-serif;
+.poo, .pee{
     color: grey;
     font-size: 14px;
 }
 .pee{
     padding-top: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-    font-size: 14px;
 }
+
 .subscribe_button{
-    padding-top: 1rem;
-    padding-left: 12rem;
+    padding-left: 16rem;
 }
 .btn{
     width: 7rem;
@@ -134,6 +125,7 @@
     padding-left: 2rem;
     width: 30%;
     float: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .headear_aside{
     text-align: right;
@@ -143,41 +135,46 @@
     color: rgb(101, 101, 240);
 }
 .dot{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: gray;
 }
 .dot3{
     padding-left: 13rem;
-    font-family: Arial, Helvetica, sans-serif;
     color: gray;
     font-size: 15px;
 }
 #img{
     list-style: none;
+    position: relative;
 }
 .side_bar_videos{
     padding: 0.8rem;
     display: flex;
+    position: relative;
+}
+.sidebar{
+    width: 11rem;
 }
 .description_aside_videos{
-    font-family: Arial, Helvetica, sans-serif;
     padding-left: 0.5rem;
 }
+.line_correction{
+    top: 95%;
+    border: 0.7px solid rgb(158, 158, 158);
+    position: absolute;
+    width: 100%;
+}
 .A{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: bolder;
 }
-.B{
-    font-family: Arial, Helvetica, sans-serif;
+.B, .C{
     color: gray;
     font-size: 13px;
+}
+.B{
     padding-top: 0.6rem;
 }
 .C{
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-    font-size: 13px;
     padding-top: 0.3rem;
 }
