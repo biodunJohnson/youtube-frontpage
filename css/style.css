@@ -40,7 +40,8 @@
 }
 .search_button{
     width: 10%;
-    font-size: 15px
+    font-size: 15px;
+    cursor: pointer;
 }    
 .navright1{
     text-align: right;
