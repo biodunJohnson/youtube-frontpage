@@ -120,6 +120,10 @@
     border: none;
     border-radius: 2px;
 }
+.adnd{
+    text-decoration: none;
+    columns: #0000FF;
+}
 .aside_bar{
     justify-content: right;
     padding-left: 2rem;
