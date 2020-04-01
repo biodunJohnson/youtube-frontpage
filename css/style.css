@@ -120,7 +120,9 @@
     font-weight: bolder;
     border: none;
     border-radius: 2px;
+    cursor:pointer;
 }
+
 .adnd{
     text-decoration: none;
     columns: #0000FF;
