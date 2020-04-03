@@ -103,10 +103,11 @@
 }
 
 .number_views{
-    text-align: right ;
-    width: 27rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
     color: #777575;
-    padding-top: 3.4rem;
     font-size: 1.5rem;
 }
 
