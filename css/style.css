@@ -55,29 +55,77 @@
     justify-content: center;
     display: flex;
 }
+
 .the_video{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .main_header{
     display: none;
 }
-.tittle{
-    padding-top: 0.8rem;
+
+.big_description {
+    margin: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.tittle{
+    font-size: 1.3rem;
+}
+
 .likes_views{
     display: flex;
+    justify-content: flex-end;
 }
+
+.user_icon {
+    width: 4rem;
+}
+
+.joy {
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    width: 4rem;
+}
+
+.video_description{
+    width: 14rem;
+    padding: 1rem;
+}
+
+.pet {
+    color: rgb(92, 90, 90);
+    font-size: 1.1rem;
+}
+
+.subscribe_button{
+    padding-top: 0.5rem;
+}
+
 .number_views{
+    text-align: right ;
+    width: 27rem;
     color: #777575;
-    padding-top: 0.8rem;
+    padding-top: 3.4rem;
+    font-size: 1.5rem;
 }
-.views_right{
-    padding-left: 7rem;
-    color: #777575;
+
+.views_right {
+    display: flex;
+    font-size: 21px;
+    padding-top: 1rem;
+    color: #746a6a;
 }
-.image{
-    padding-left: 2rem;
+
+.views_right1 {
+    width: 50%;
 }
+
+.views_right2 {
+    text-align: right;
+    width: 50%;
+}
+
 .share_button{
     background-color: transparent;
     border: none;
@@ -85,22 +133,13 @@
     cursor: pointer;
 }
 .views{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: bold;
-    padding-left: 0.8rem;
 }
-.video_description{
-    display: flex;
-    padding-top: 1rem;
-}
-.joy{
-    border-radius: 70%;
-}
-.desciption_container{
-    padding-left: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .poo, .pee{
     color: grey;
     font-size: 14px;
@@ -109,9 +148,6 @@
     padding-top: 1rem;
 }
 
-.subscribe_button{
-    padding-left: 16rem;
-}
 .btn{
     width: 7rem;
     height: 2rem;
@@ -121,10 +157,33 @@
     border: none;
     border-radius: 2px;
 }
-.adnd{
-    text-decoration: none;
-    columns: #0000FF;
+
+.text_description {
+    margin: 1.7rem 0 0 1rem;
+    font-size: 0.9rem;
 }
+
+.text_description1 {
+    margin-bottom: 1rem;
+}
+
+.text_description1p, .text_description1 {
+    width: 46rem;
+    color: rgb(136, 132, 131);
+}
+
+.show_more{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: rgb(136, 132, 131);
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 0.4rem;
+}
+
 .aside_bar{
     justify-content: right;
     padding-left: 2rem;
