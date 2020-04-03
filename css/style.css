@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+main {
+    background-color: #EEEEEE;
+    max-height: 100%;
+    
+}
 .nav_bar{
     display: flex;
     background: #ffffff;
@@ -242,4 +247,70 @@
 }
 .C{
     padding-top: 0.3rem;
+}
+
+footer{
+    background-color: #EEEEEE;
+    height: 12rem;
+    width: 100%;
+}
+.footer-div{
+    background-color: #ffffff;
+    height: 9rem;
+    margin-top: 3rem;
+    padding-bottom: 0.4rem;
+   
+    
+    
+    
+}
+.btn-footer  {
+    background-color: #EEEEEE;
+    border: 1px solid #777575;
+    color: #000000;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 1.2rem;
+    padding: 5px 7px;
+    vertical-align: middle;
+    
+}
+.youlogo {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left:1.8rem;
+    cursor: pointer;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+.line-footer {
+   border: 0.7px solid  rgb(158, 158, 158);
+   width: 60%;
+   margin-left: 1.8rem;
+   margin-bottom: 0.7rem;
+}
+.info-cop a{
+    color: #292121;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 3.4rem;
+    text-decoration: none;
+
+
+}
+.infoh{
+    color: rgb(88, 86, 86);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 3.4rem;
+    text-decoration: none;
+}
+.fab fa-youtube {
+    font-size: 30px;
+    color: #ff0000;
 }
