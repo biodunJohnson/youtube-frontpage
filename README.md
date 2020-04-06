@@ -2,7 +2,7 @@
 
 > We created a youtube frontpage that display one video.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot1.png)
 
 Additional description about the project and its features.
 
